@@ -1,0 +1,59 @@
+body {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: #c2c2c2 0px 1px 2px;
+}
+
+.section-padding {
+  padding: 10px 10px;
+}
+
+.left-column {
+  width: 20%;
+}
+
+.maging-left {
+  margin-left: 10%;
+}
+
+.maging-top {
+  margin-top: 20px;
+}
+
+.right-column {
+  width: 80%;
+}
+
+.list li{
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.overflow {
+  overflow:auto
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    text-align: center;   
+  }
+  
+  .left-column {
+    width: 100%;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+}
