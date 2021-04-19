@@ -5,8 +5,7 @@ body {
 
 .main{
   display: flex;
-  justify-content: space-between;
-  box-shadow: #c2c2c2 0px 1px 2px;
+  justify-content: space-between;  
 }
 
 .section-padding {
@@ -39,9 +38,15 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+
+  body {
+    width: 80%;
+    margin: 20px auto;
+  }
+
   main {
     flex-direction: column;
-    text-align: center;   
+    text-align: center;    
   }
   
   .left-column {
